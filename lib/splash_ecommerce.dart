@@ -13,7 +13,7 @@ class splashscreen extends StatefulWidget {
 class _splashscreenState extends State<splashscreen> {
   void splashScreenMethod() {
     Timer(
-      const Duration(seconds: 6),
+      const Duration(seconds: 7),
       () {
         Navigator.of(context).pushReplacement(
           MaterialPageRoute(
